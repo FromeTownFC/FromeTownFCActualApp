@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE37C75B204D7A67001E9F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE37C759204D7A66001E9F50 /* Main.storyboard */; };
+		CE3A15A8204D9BAA00E5CF05 /* Frome Town.app in Resources */ = {isa = PBXBuildFile; fileRef = 9798EA311F791B2F00106ABF /* Frome Town.app */; };
+		CE3A15B1204D9BDD00E5CF05 /* Frome_TownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A15B0204D9BDD00E5CF05 /* Frome_TownUITests.swift */; };
+		CE3A15BF204D9BE500E5CF05 /* Frome_TownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A15BE204D9BE500E5CF05 /* Frome_TownTests.swift */; };
+		CE3A15C6204D9BF300E5CF05 /* Frome TownUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CE3A15AE204D9BDD00E5CF05 /* Frome TownUITests.xctest */; };
+		CE3A15C7204D9BF600E5CF05 /* Frome TownTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CE3A15BC204D9BE500E5CF05 /* Frome TownTests.xctest */; };
+		CE3A15C9204D9C9700E5CF05 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE3A15C8204D9C9600E5CF05 /* Info.plist */; };
+		CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB834EC204D7369000C83C1 /* IMAGES.xcassets */; };
+		CEB834F2204D7552000C83C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F1204D7552000C83C1 /* AppDelegate.swift */; };
+		CEB834F7204D7560000C83C1 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F3204D755F000C83C1 /* FifthViewController.swift */; };
+		CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F4204D7560000C83C1 /* FirstViewController.swift */; };
+		CEB834F9204D7560000C83C1 /* FacebookPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F5204D7560000C83C1 /* FacebookPageController.swift */; };
+		CEB834FA204D7560000C83C1 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F6204D7560000C83C1 /* FourthViewController.swift */; };
+		CEB834FF204D756A000C83C1 /* Frome Town Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB834FB204D756A000C83C1 /* Frome Town Launch Screen.storyboard */; };
+		CEB83500204D756A000C83C1 /* FromeTownLadiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834FC204D756A000C83C1 /* FromeTownLadiesViewController.swift */; };
+		CEB83501204D756A000C83C1 /* FromeTownRobinsTwitterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834FD204D756A000C83C1 /* FromeTownRobinsTwitterController.swift */; };
+		CEB83502204D756A000C83C1 /* FromeTownRobinsFacebookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834FE204D756A000C83C1 /* FromeTownRobinsFacebookController.swift */; };
+		CEB83504204D757E000C83C1 /* HistoryPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83503204D757E000C83C1 /* HistoryPageController.swift */; };
+		CEB8350C204D7589000C83C1 /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83505204D7588000C83C1 /* RoundCorners.swift */; };
+		CEB8350F204D7589000C83C1 /* New Group in Resources */ = {isa = PBXBuildFile; fileRef = CEB83508204D7588000C83C1 /* New Group */; };
+		CEB83510204D7589000C83C1 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83509204D7588000C83C1 /* ReportsViewController.swift */; };
+		CEB83511204D7589000C83C1 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8350A204D7589000C83C1 /* PlayerViewController.swift */; };
+		CEB83512204D7589000C83C1 /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8350B204D7589000C83C1 /* RadioViewController.swift */; };
+		CEB83514204D7590000C83C1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83513204D7590000C83C1 /* SecondViewController.swift */; };
+		CEB83517204D7598000C83C1 /* TwitterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83515204D7598000C83C1 /* TwitterPageController.swift */; };
+		CEB83518204D7598000C83C1 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83516204D7598000C83C1 /* ThirdController.swift */; };
+		CEBA3172204D8C1700307059 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9798EA421F791B2F00106ABF /* Info.plist */; };
+		CEBA3180204D906000307059 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA317F204D906000307059 /* RoundButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE3A15B3204D9BDD00E5CF05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9798EA291F791B2F00106ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9798EA301F791B2F00106ABF;
+			remoteInfo = "Frome Town";
+		};
+		CE3A15C1204D9BE600E5CF05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9798EA291F791B2F00106ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9798EA301F791B2F00106ABF;
+			remoteInfo = "Frome Town";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9798EA311F791B2F00106ABF /* Frome Town.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frome Town.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9798EA421F791B2F00106ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E6EDB91F8FA89E0030A055 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE37C75A204D7A66001E9F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "New Group/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		CE3A15AE204D9BDD00E5CF05 /* Frome TownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frome TownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3A15B0204D9BDD00E5CF05 /* Frome_TownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frome_TownUITests.swift; sourceTree = "<group>"; };
+		CE3A15B2204D9BDD00E5CF05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3A15BC204D9BE500E5CF05 /* Frome TownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frome TownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3A15BE204D9BE500E5CF05 /* Frome_TownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frome_TownTests.swift; sourceTree = "<group>"; };
+		CE3A15C0204D9BE600E5CF05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3A15C8204D9C9600E5CF05 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../Frome-Town/Frome Town/Info.plist"; sourceTree = "<group>"; };
+		CEB834EC204D7369000C83C1 /* IMAGES.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IMAGES.xcassets; sourceTree = SOURCE_ROOT; };
+		CEB834F1204D7552000C83C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../Volumes/NO NAME/AppDelegate.swift"; sourceTree = "<group>"; };
+		CEB834F3204D755F000C83C1 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FifthViewController.swift; path = "../../../../Volumes/NO NAME/FifthViewController.swift"; sourceTree = "<group>"; };
+		CEB834F4204D7560000C83C1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = "../../../../Volumes/NO NAME/FirstViewController.swift"; sourceTree = "<group>"; };
+		CEB834F5204D7560000C83C1 /* FacebookPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookPageController.swift; path = "../../../../Volumes/NO NAME/FacebookPageController.swift"; sourceTree = "<group>"; };
+		CEB834F6204D7560000C83C1 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FourthViewController.swift; path = "../../../../Volumes/NO NAME/FourthViewController.swift"; sourceTree = "<group>"; };
+		CEB834FB204D756A000C83C1 /* Frome Town Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Frome Town Launch Screen.storyboard"; path = "../../../../Volumes/NO NAME/Frome Town Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CEB834FC204D756A000C83C1 /* FromeTownLadiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromeTownLadiesViewController.swift; path = "../../../../Volumes/NO NAME/FromeTownLadiesViewController.swift"; sourceTree = "<group>"; };
+		CEB834FD204D756A000C83C1 /* FromeTownRobinsTwitterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromeTownRobinsTwitterController.swift; path = "../../../../Volumes/NO NAME/FromeTownRobinsTwitterController.swift"; sourceTree = "<group>"; };
+		CEB834FE204D756A000C83C1 /* FromeTownRobinsFacebookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromeTownRobinsFacebookController.swift; path = "../../../../Volumes/NO NAME/FromeTownRobinsFacebookController.swift"; sourceTree = "<group>"; };
+		CEB83503204D757E000C83C1 /* HistoryPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryPageController.swift; path = "../../../../Volumes/NO NAME/HistoryPageController.swift"; sourceTree = "<group>"; };
+		CEB83505204D7588000C83C1 /* RoundCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundCorners.swift; path = "../../../../Volumes/NO NAME/RoundCorners.swift"; sourceTree = "<group>"; };
+		CEB83508204D7588000C83C1 /* New Group */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "New Group"; path = "../../../../Volumes/NO NAME/New Group"; sourceTree = "<group>"; };
+		CEB83509204D7588000C83C1 /* ReportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportsViewController.swift; path = "../../../../Volumes/NO NAME/ReportsViewController.swift"; sourceTree = "<group>"; };
+		CEB8350A204D7589000C83C1 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerViewController.swift; path = "../../../../Volumes/NO NAME/PlayerViewController.swift"; sourceTree = "<group>"; };
+		CEB8350B204D7589000C83C1 /* RadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RadioViewController.swift; path = "../../../../Volumes/NO NAME/RadioViewController.swift"; sourceTree = "<group>"; };
+		CEB83513204D7590000C83C1 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = "../../../../Volumes/NO NAME/SecondViewController.swift"; sourceTree = "<group>"; };
+		CEB83515204D7598000C83C1 /* TwitterPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterPageController.swift; path = "../../../../Volumes/NO NAME/TwitterPageController.swift"; sourceTree = "<group>"; };
+		CEB83516204D7598000C83C1 /* ThirdController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdController.swift; path = "../../../../Volumes/NO NAME/ThirdController.swift"; sourceTree = "<group>"; };
+		CEBA3155204D88E700307059 /* Frome_TownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frome_TownUITests.swift; sourceTree = "<group>"; };
+		CEBA3157204D88E700307059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBA3163204D88EF00307059 /* Frome_TownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frome_TownTests.swift; sourceTree = "<group>"; };
+		CEBA3165204D88EF00307059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBA317F204D906000307059 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = "../../../../Volumes/NO NAME/.Trashes/501/RoundButton.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9798EA2E1F791B2F00106ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3A15AB204D9BDD00E5CF05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3A15B9204D9BE500E5CF05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		972CBA101F84DCD6008586DD /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		974936861F7A88140031E6FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97E6EDB91F8FA89E0030A055 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9798EA281F791B2F00106ABF = {
+			isa = PBXGroup;
+			children = (
+				9798EA331F791B2F00106ABF /* Frome Town */,
+				CEBA3154204D88E700307059 /* Frome TownUITests */,
+				CEBA3162204D88EF00307059 /* Frome TownTests */,
+				CE3A15AF204D9BDD00E5CF05 /* Frome TownUITests */,
+				CE3A15BD204D9BE500E5CF05 /* Frome TownTests */,
+				9798EA321F791B2F00106ABF /* Products */,
+				974936861F7A88140031E6FF /* Frameworks */,
+				972CBA101F84DCD6008586DD /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		9798EA321F791B2F00106ABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9798EA311F791B2F00106ABF /* Frome Town.app */,
+				CE3A15AE204D9BDD00E5CF05 /* Frome TownUITests.xctest */,
+				CE3A15BC204D9BE500E5CF05 /* Frome TownTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9798EA331F791B2F00106ABF /* Frome Town */ = {
+			isa = PBXGroup;
+			children = (
+				CEB834F1204D7552000C83C1 /* AppDelegate.swift */,
+				CEB834F5204D7560000C83C1 /* FacebookPageController.swift */,
+				CEB834F3204D755F000C83C1 /* FifthViewController.swift */,
+				CEB834F4204D7560000C83C1 /* FirstViewController.swift */,
+				CEB834F6204D7560000C83C1 /* FourthViewController.swift */,
+				CEB834FB204D756A000C83C1 /* Frome Town Launch Screen.storyboard */,
+				CEB834FC204D756A000C83C1 /* FromeTownLadiesViewController.swift */,
+				CEB834FE204D756A000C83C1 /* FromeTownRobinsFacebookController.swift */,
+				CEB834FD204D756A000C83C1 /* FromeTownRobinsTwitterController.swift */,
+				CE37C759204D7A66001E9F50 /* Main.storyboard */,
+				9798EA421F791B2F00106ABF /* Info.plist */,
+				CE3A15C8204D9C9600E5CF05 /* Info.plist */,
+				CEB834EC204D7369000C83C1 /* IMAGES.xcassets */,
+				CEB83503204D757E000C83C1 /* HistoryPageController.swift */,
+				CEB83508204D7588000C83C1 /* New Group */,
+				CEB8350A204D7589000C83C1 /* PlayerViewController.swift */,
+				CEB8350B204D7589000C83C1 /* RadioViewController.swift */,
+				CEBA317F204D906000307059 /* RoundButton.swift */,
+				CEB83509204D7588000C83C1 /* ReportsViewController.swift */,
+				CEB83505204D7588000C83C1 /* RoundCorners.swift */,
+				CEB83513204D7590000C83C1 /* SecondViewController.swift */,
+				CEB83516204D7598000C83C1 /* ThirdController.swift */,
+				CEB83515204D7598000C83C1 /* TwitterPageController.swift */,
+			);
+			path = "Frome Town";
+			sourceTree = "<group>";
+		};
+		CE3A15AF204D9BDD00E5CF05 /* Frome TownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A15B0204D9BDD00E5CF05 /* Frome_TownUITests.swift */,
+				CE3A15B2204D9BDD00E5CF05 /* Info.plist */,
+			);
+			path = "Frome TownUITests";
+			sourceTree = "<group>";
+		};
+		CE3A15BD204D9BE500E5CF05 /* Frome TownTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A15BE204D9BE500E5CF05 /* Frome_TownTests.swift */,
+				CE3A15C0204D9BE600E5CF05 /* Info.plist */,
+			);
+			path = "Frome TownTests";
+			sourceTree = "<group>";
+		};
+		CEBA3154204D88E700307059 /* Frome TownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA3155204D88E700307059 /* Frome_TownUITests.swift */,
+				CEBA3157204D88E700307059 /* Info.plist */,
+			);
+			path = "Frome TownUITests";
+			sourceTree = "<group>";
+		};
+		CEBA3162204D88EF00307059 /* Frome TownTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA3163204D88EF00307059 /* Frome_TownTests.swift */,
+				CEBA3165204D88EF00307059 /* Info.plist */,
+			);
+			path = "Frome TownTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9798EA301F791B2F00106ABF /* Frome Town */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9798EA501F791B2F00106ABF /* Build configuration list for PBXNativeTarget "Frome Town" */;
+			buildPhases = (
+				9798EA2D1F791B2F00106ABF /* Sources */,
+				9798EA2E1F791B2F00106ABF /* Frameworks */,
+				9798EA2F1F791B2F00106ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frome Town";
+			productName = "Frome Town";
+			productReference = 9798EA311F791B2F00106ABF /* Frome Town.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE3A15AD204D9BDD00E5CF05 /* Frome TownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3A15B5204D9BDD00E5CF05 /* Build configuration list for PBXNativeTarget "Frome TownUITests" */;
+			buildPhases = (
+				CE3A15AA204D9BDD00E5CF05 /* Sources */,
+				CE3A15AB204D9BDD00E5CF05 /* Frameworks */,
+				CE3A15AC204D9BDD00E5CF05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3A15B4204D9BDD00E5CF05 /* PBXTargetDependency */,
+			);
+			name = "Frome TownUITests";
+			productName = "Frome TownUITests";
+			productReference = CE3A15AE204D9BDD00E5CF05 /* Frome TownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CE3A15BB204D9BE500E5CF05 /* Frome TownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3A15C3204D9BE600E5CF05 /* Build configuration list for PBXNativeTarget "Frome TownTests" */;
+			buildPhases = (
+				CE3A15B8204D9BE500E5CF05 /* Sources */,
+				CE3A15B9204D9BE500E5CF05 /* Frameworks */,
+				CE3A15BA204D9BE500E5CF05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3A15C2204D9BE600E5CF05 /* PBXTargetDependency */,
+			);
+			name = "Frome TownTests";
+			productName = "Frome TownTests";
+			productReference = CE3A15BC204D9BE500E5CF05 /* Frome TownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9798EA291F791B2F00106ABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Dan Turner";
+				TargetAttributes = {
+					9798EA301F791B2F00106ABF = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					CE3A15AD204D9BDD00E5CF05 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9798EA301F791B2F00106ABF;
+					};
+					CE3A15BB204D9BE500E5CF05 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9798EA301F791B2F00106ABF;
+					};
+				};
+			};
+			buildConfigurationList = 9798EA2C1F791B2F00106ABF /* Build configuration list for PBXProject "Frome TownFCActualApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9798EA281F791B2F00106ABF;
+			productRefGroup = 9798EA321F791B2F00106ABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9798EA301F791B2F00106ABF /* Frome Town */,
+				CE3A15AD204D9BDD00E5CF05 /* Frome TownUITests */,
+				CE3A15BB204D9BE500E5CF05 /* Frome TownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9798EA2F1F791B2F00106ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3A15A8204D9BAA00E5CF05 /* Frome Town.app in Resources */,
+				CEB8350F204D7589000C83C1 /* New Group in Resources */,
+				CE37C75B204D7A67001E9F50 /* Main.storyboard in Resources */,
+				CEBA3172204D8C1700307059 /* Info.plist in Resources */,
+				CEB834FF204D756A000C83C1 /* Frome Town Launch Screen.storyboard in Resources */,
+				CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */,
+				CE3A15C9204D9C9700E5CF05 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3A15AC204D9BDD00E5CF05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3A15C6204D9BF300E5CF05 /* Frome TownUITests.xctest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3A15BA204D9BE500E5CF05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3A15C7204D9BF600E5CF05 /* Frome TownTests.xctest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9798EA2D1F791B2F00106ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBA3180204D906000307059 /* RoundButton.swift in Sources */,
+				CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */,
+				CEB834F7204D7560000C83C1 /* FifthViewController.swift in Sources */,
+				CEB834F9204D7560000C83C1 /* FacebookPageController.swift in Sources */,
+				CEB83514204D7590000C83C1 /* SecondViewController.swift in Sources */,
+				CEB83504204D757E000C83C1 /* HistoryPageController.swift in Sources */,
+				CEB83510204D7589000C83C1 /* ReportsViewController.swift in Sources */,
+				CEB834F2204D7552000C83C1 /* AppDelegate.swift in Sources */,
+				CEB83511204D7589000C83C1 /* PlayerViewController.swift in Sources */,
+				CEB83512204D7589000C83C1 /* RadioViewController.swift in Sources */,
+				CEB83517204D7598000C83C1 /* TwitterPageController.swift in Sources */,
+				CEB83518204D7598000C83C1 /* ThirdController.swift in Sources */,
+				CEB83500204D756A000C83C1 /* FromeTownLadiesViewController.swift in Sources */,
+				CEB83501204D756A000C83C1 /* FromeTownRobinsTwitterController.swift in Sources */,
+				CEB8350C204D7589000C83C1 /* RoundCorners.swift in Sources */,
+				CEB83502204D756A000C83C1 /* FromeTownRobinsFacebookController.swift in Sources */,
+				CEB834FA204D7560000C83C1 /* FourthViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3A15AA204D9BDD00E5CF05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3A15B1204D9BDD00E5CF05 /* Frome_TownUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3A15B8204D9BE500E5CF05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3A15BF204D9BE500E5CF05 /* Frome_TownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE3A15B4204D9BDD00E5CF05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9798EA301F791B2F00106ABF /* Frome Town */;
+			targetProxy = CE3A15B3204D9BDD00E5CF05 /* PBXContainerItemProxy */;
+		};
+		CE3A15C2204D9BE600E5CF05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9798EA301F791B2F00106ABF /* Frome Town */;
+			targetProxy = CE3A15C1204D9BE600E5CF05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE37C759204D7A66001E9F50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE37C75A204D7A66001E9F50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9798EA4E1F791B2F00106ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9798EA4F1F791B2F00106ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9798EA511F791B2F00106ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = "$(SRCROOT)/Frome Town/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FromeTownFC.FromeTown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9798EA521F791B2F00106ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = "$(SRCROOT)/Frome Town/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FromeTownFC.FromeTown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE3A15B6204D9BDD00E5CF05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = "Frome TownUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Frome Town";
+			};
+			name = Debug;
+		};
+		CE3A15B7204D9BDD00E5CF05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = "Frome TownUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Frome Town";
+			};
+			name = Release;
+		};
+		CE3A15C4204D9BE600E5CF05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = "Frome TownTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frome Town.app/Frome Town";
+			};
+			name = Debug;
+		};
+		CE3A15C5204D9BE600E5CF05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = "Frome TownTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frome Town.app/Frome Town";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9798EA2C1F791B2F00106ABF /* Build configuration list for PBXProject "Frome TownFCActualApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9798EA4E1F791B2F00106ABF /* Debug */,
+				9798EA4F1F791B2F00106ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9798EA501F791B2F00106ABF /* Build configuration list for PBXNativeTarget "Frome Town" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9798EA511F791B2F00106ABF /* Debug */,
+				9798EA521F791B2F00106ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3A15B5204D9BDD00E5CF05 /* Build configuration list for PBXNativeTarget "Frome TownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3A15B6204D9BDD00E5CF05 /* Debug */,
+				CE3A15B7204D9BDD00E5CF05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3A15C3204D9BE600E5CF05 /* Build configuration list for PBXNativeTarget "Frome TownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3A15C4204D9BE600E5CF05 /* Debug */,
+				CE3A15C5204D9BE600E5CF05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9798EA291F791B2F00106ABF /* Project object */;
+}
