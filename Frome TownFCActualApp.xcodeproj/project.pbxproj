@@ -12,7 +12,6 @@
 		CE3A15CC204D9DC800E5CF05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3A15CA204D9DC700E5CF05 /* Main.storyboard */; };
 		CE3A15CD204D9E6A00E5CF05 /* Frome_TownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA3155204D88E700307059 /* Frome_TownUITests.swift */; };
 		CE3A15CF204D9E7300E5CF05 /* Frome_TownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA3163204D88EF00307059 /* Frome_TownTests.swift */; };
-		CE3A15D3204DB2AF00E5CF05 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A15D2204DB2AC00E5CF05 /* SecondViewController.swift */; };
 		CE3A15D5204DC26B00E5CF05 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A15D4204DC26A00E5CF05 /* RoundButton.swift */; };
 		CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB834EC204D7369000C83C1 /* IMAGES.xcassets */; };
 		CEB834F2204D7552000C83C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F1204D7552000C83C1 /* AppDelegate.swift */; };
@@ -58,7 +57,6 @@
 		CE3A15AE204D9BDD00E5CF05 /* Frome TownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frome TownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3A15BC204D9BE500E5CF05 /* Frome TownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frome TownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3A15CB204D9DC700E5CF05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../New Group/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		CE3A15D2204DB2AC00E5CF05 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = "../Frome-Town/Frome Town/SecondViewController.swift"; sourceTree = "<group>"; };
 		CE3A15D4204DC26A00E5CF05 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = ../RoundButton.swift; sourceTree = "<group>"; };
 		CEB834EC204D7369000C83C1 /* IMAGES.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = IMAGES.xcassets; path = ../IMAGES.xcassets; sourceTree = SOURCE_ROOT; };
 		CEB834F1204D7552000C83C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../Volumes/NO NAME/AppDelegate.swift"; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 				CEB83509204D7588000C83C1 /* ReportsViewController.swift */,
 				CEB83505204D7588000C83C1 /* RoundCorners.swift */,
 				CEB83516204D7598000C83C1 /* ThirdController.swift */,
-				CE3A15D2204DB2AC00E5CF05 /* SecondViewController.swift */,
 				CEB83515204D7598000C83C1 /* TwitterPageController.swift */,
 			);
 			name = "Frome Town";
@@ -351,7 +348,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3A15D3204DB2AF00E5CF05 /* SecondViewController.swift in Sources */,
 				CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */,
 				CEB834F7204D7560000C83C1 /* FifthViewController.swift in Sources */,
 				CEB834F9204D7560000C83C1 /* FacebookPageController.swift in Sources */,
@@ -530,7 +526,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SHU39HZYKT;
-				INFOPLIST_FILE = "$(SRCROOT)/../Frome-Town/Frome Town/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../Frome-Town/Frome Town/InfoMain.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FromeTownFC.FromeTown;
@@ -551,7 +547,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SHU39HZYKT;
-				INFOPLIST_FILE = "$(SRCROOT)/../Frome-Town/Frome Town/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../Frome-Town/Frome Town/InfoMain.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FromeTownFC.FromeTown;
