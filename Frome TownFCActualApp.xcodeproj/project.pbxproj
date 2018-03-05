@@ -30,7 +30,7 @@
 		CEB83512204D7589000C83C1 /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8350B204D7589000C83C1 /* RadioViewController.swift */; };
 		CEB83517204D7598000C83C1 /* TwitterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83515204D7598000C83C1 /* TwitterPageController.swift */; };
 		CEB83518204D7598000C83C1 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83516204D7598000C83C1 /* ThirdController.swift */; };
-		CEBA3172204D8C1700307059 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9798EA421F791B2F00106ABF /* Info.plist */; };
+		CEBA3172204D8C1700307059 /* InfoMain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9798EA421F791B2F00106ABF /* InfoMain.plist */; };
 		CEBA3180204D906000307059 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA317F204D906000307059 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +53,7 @@
 
 /* Begin PBXFileReference section */
 		9798EA311F791B2F00106ABF /* Frome Town.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frome Town.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9798EA421F791B2F00106ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "../Frome-Town/Frome Town/Info.plist"; sourceTree = "<group>"; };
+		9798EA421F791B2F00106ABF /* InfoMain.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoMain.plist; path = "../Frome-Town/Frome Town/InfoMain.plist"; sourceTree = "<group>"; };
 		97E6EDB91F8FA89E0030A055 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CE3A15AE204D9BDD00E5CF05 /* Frome TownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frome TownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3A15BC204D9BE500E5CF05 /* Frome TownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frome TownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,7 +159,7 @@
 				CEB834FE204D756A000C83C1 /* FromeTownRobinsFacebookController.swift */,
 				CEB834FD204D756A000C83C1 /* FromeTownRobinsTwitterController.swift */,
 				CE3A15CA204D9DC700E5CF05 /* Main.storyboard */,
-				9798EA421F791B2F00106ABF /* Info.plist */,
+				9798EA421F791B2F00106ABF /* InfoMain.plist */,
 				CEB834EC204D7369000C83C1 /* IMAGES.xcassets */,
 				CEB83503204D757E000C83C1 /* HistoryPageController.swift */,
 				CEB83508204D7588000C83C1 /* New Group */,
@@ -323,7 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBA3172204D8C1700307059 /* Info.plist in Resources */,
+				CEBA3172204D8C1700307059 /* InfoMain.plist in Resources */,
 				CE3A15CC204D9DC800E5CF05 /* Main.storyboard in Resources */,
 				CEB834FF204D756A000C83C1 /* Frome Town Launch Screen.storyboard in Resources */,
 				CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */,
