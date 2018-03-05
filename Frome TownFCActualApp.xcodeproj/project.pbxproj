@@ -25,7 +25,6 @@
 		CEB83502204D756A000C83C1 /* FromeTownRobinsFacebookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834FE204D756A000C83C1 /* FromeTownRobinsFacebookController.swift */; };
 		CEB83504204D757E000C83C1 /* HistoryPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83503204D757E000C83C1 /* HistoryPageController.swift */; };
 		CEB8350C204D7589000C83C1 /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83505204D7588000C83C1 /* RoundCorners.swift */; };
-		CEB8350F204D7589000C83C1 /* New Group in Resources */ = {isa = PBXBuildFile; fileRef = CEB83508204D7588000C83C1 /* New Group */; };
 		CEB83510204D7589000C83C1 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83509204D7588000C83C1 /* ReportsViewController.swift */; };
 		CEB83511204D7589000C83C1 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8350A204D7589000C83C1 /* PlayerViewController.swift */; };
 		CEB83512204D7589000C83C1 /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8350B204D7589000C83C1 /* RadioViewController.swift */; };
@@ -324,7 +323,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB8350F204D7589000C83C1 /* New Group in Resources */,
 				CEBA3172204D8C1700307059 /* Info.plist in Resources */,
 				CE3A15CC204D9DC800E5CF05 /* Main.storyboard in Resources */,
 				CEB834FF204D756A000C83C1 /* Frome Town Launch Screen.storyboard in Resources */,
