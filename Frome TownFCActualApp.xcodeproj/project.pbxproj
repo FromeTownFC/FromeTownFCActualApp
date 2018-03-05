@@ -78,9 +78,9 @@
 		CEB83515204D7598000C83C1 /* TwitterPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterPageController.swift; path = "../../../../Volumes/NO NAME/TwitterPageController.swift"; sourceTree = "<group>"; };
 		CEB83516204D7598000C83C1 /* ThirdController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdController.swift; path = "../../../../Volumes/NO NAME/ThirdController.swift"; sourceTree = "<group>"; };
 		CEBA3155204D88E700307059 /* Frome_TownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Frome_TownUITests.swift; path = "../Frome TownUITests/Frome_TownUITests.swift"; sourceTree = "<group>"; };
-		CEBA3157204D88E700307059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "../Frome TownUITests/Info.plist"; sourceTree = "<group>"; };
+		CEBA3157204D88E700307059 /* InfoUITests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoUITests.plist; sourceTree = "<group>"; };
 		CEBA3163204D88EF00307059 /* Frome_TownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Frome_TownTests.swift; path = "../Frome TownTests/Frome_TownTests.swift"; sourceTree = "<group>"; };
-		CEBA3165204D88EF00307059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "../Frome TownTests/Info.plist"; sourceTree = "<group>"; };
+		CEBA3165204D88EF00307059 /* InfoTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoTests.plist; sourceTree = "<group>"; };
 		CEBA317F204D906000307059 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = "../../../../Volumes/NO NAME/.Trashes/501/RoundButton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,7 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				CEBA3155204D88E700307059 /* Frome_TownUITests.swift */,
-				CEBA3157204D88E700307059 /* Info.plist */,
+				CEBA3157204D88E700307059 /* InfoUITests.plist */,
 			);
 			name = "Frome TownUITests";
 			path = "../Frome TownUITests";
@@ -189,7 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				CEBA3163204D88EF00307059 /* Frome_TownTests.swift */,
-				CEBA3165204D88EF00307059 /* Info.plist */,
+				CEBA3165204D88EF00307059 /* InfoTests.plist */,
 			);
 			name = "Frome TownTests";
 			path = "../Frome TownTests";
