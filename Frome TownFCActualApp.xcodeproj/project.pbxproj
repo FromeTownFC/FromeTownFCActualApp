@@ -15,7 +15,6 @@
 		CE3A15D5204DC26B00E5CF05 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A15D4204DC26A00E5CF05 /* RoundButton.swift */; };
 		CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB834EC204D7369000C83C1 /* IMAGES.xcassets */; };
 		CEB834F2204D7552000C83C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F1204D7552000C83C1 /* AppDelegate.swift */; };
-		CEB834F7204D7560000C83C1 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F3204D755F000C83C1 /* FifthViewController.swift */; };
 		CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F4204D7560000C83C1 /* FirstViewController.swift */; };
 		CEB834F9204D7560000C83C1 /* FacebookPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F5204D7560000C83C1 /* FacebookPageController.swift */; };
 		CEB834FA204D7560000C83C1 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F6204D7560000C83C1 /* FourthViewController.swift */; };
@@ -31,6 +30,7 @@
 		CEB83517204D7598000C83C1 /* TwitterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83515204D7598000C83C1 /* TwitterPageController.swift */; };
 		CEB83518204D7598000C83C1 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83516204D7598000C83C1 /* ThirdController.swift */; };
 		CEBA3172204D8C1700307059 /* InfoMain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9798EA421F791B2F00106ABF /* InfoMain.plist */; };
+		CEEBF22C204EC7CD002B928A /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F3204D755F000C83C1 /* FifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -352,8 +352,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEBF22C204EC7CD002B928A /* FifthViewController.swift in Sources */,
 				CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */,
-				CEB834F7204D7560000C83C1 /* FifthViewController.swift in Sources */,
 				CEB834F9204D7560000C83C1 /* FacebookPageController.swift in Sources */,
 				CEB83504204D757E000C83C1 /* HistoryPageController.swift in Sources */,
 				CEB83510204D7589000C83C1 /* ReportsViewController.swift in Sources */,
