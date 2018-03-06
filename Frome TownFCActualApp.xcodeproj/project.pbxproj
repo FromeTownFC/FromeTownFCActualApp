@@ -30,7 +30,6 @@
 		CEB83517204D7598000C83C1 /* TwitterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83515204D7598000C83C1 /* TwitterPageController.swift */; };
 		CEB83518204D7598000C83C1 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83516204D7598000C83C1 /* ThirdController.swift */; };
 		CEBA3172204D8C1700307059 /* InfoMain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9798EA421F791B2F00106ABF /* InfoMain.plist */; };
-		CEEBF22C204EC7CD002B928A /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F3204D755F000C83C1 /* FifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +59,6 @@
 		CE3A15D4204DC26A00E5CF05 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = ../RoundButton.swift; sourceTree = "<group>"; };
 		CEB834EC204D7369000C83C1 /* IMAGES.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = IMAGES.xcassets; path = ../IMAGES.xcassets; sourceTree = SOURCE_ROOT; };
 		CEB834F1204D7552000C83C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
-		CEB834F3204D755F000C83C1 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FifthViewController.swift; path = ../FifthViewController.swift; sourceTree = "<group>"; };
 		CEB834F4204D7560000C83C1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = /Users/user/Documents/FromeTownActualApp/../FirstViewController.swift; sourceTree = "<absolute>"; };
 		CEB834F5204D7560000C83C1 /* FacebookPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookPageController.swift; path = ../FacebookPageController.swift; sourceTree = "<group>"; };
 		CEB834F6204D7560000C83C1 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FourthViewController.swift; path = ../FourthViewController.swift; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 				CEEBF229204E9FB5002B928A /* Frome Town.entitlements */,
 				CEB834F1204D7552000C83C1 /* AppDelegate.swift */,
 				CEB834F5204D7560000C83C1 /* FacebookPageController.swift */,
-				CEB834F3204D755F000C83C1 /* FifthViewController.swift */,
 				CEB834F4204D7560000C83C1 /* FirstViewController.swift */,
 				CEB834F6204D7560000C83C1 /* FourthViewController.swift */,
 				CEB834FB204D756A000C83C1 /* Frome Town Launch Screen.storyboard */,
@@ -352,7 +349,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEBF22C204EC7CD002B928A /* FifthViewController.swift in Sources */,
 				CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */,
 				CEB834F9204D7560000C83C1 /* FacebookPageController.swift in Sources */,
 				CEB83504204D757E000C83C1 /* HistoryPageController.swift in Sources */,
