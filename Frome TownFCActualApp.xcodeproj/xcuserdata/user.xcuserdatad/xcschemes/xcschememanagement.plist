@@ -4,10 +4,30 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Frome Town.xcscheme_^#shared#^_</key>
+		<key>Frome Town.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9798EA301F791B2F00106ABF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE3A15AD204D9BDD00E5CF05</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE3A15BB204D9BE500E5CF05</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
