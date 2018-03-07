@@ -30,6 +30,8 @@
 		CEB83517204D7598000C83C1 /* TwitterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83515204D7598000C83C1 /* TwitterPageController.swift */; };
 		CEB83518204D7598000C83C1 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83516204D7598000C83C1 /* ThirdController.swift */; };
 		CEBA3172204D8C1700307059 /* InfoMain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9798EA421F791B2F00106ABF /* InfoMain.plist */; };
+		CEEBF234205010B7002B928A /* AppProxyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBF233205010B7002B928A /* AppProxyProvider.swift */; };
+		CEEBF239205010B7002B928A /* FromeTownNetworkExtentension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CEEBF231205010B5002B928A /* FromeTownNetworkExtentension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +49,28 @@
 			remoteGlobalIDString = 9798EA301F791B2F00106ABF;
 			remoteInfo = "Frome Town";
 		};
+		CEEBF237205010B7002B928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9798EA291F791B2F00106ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEEBF230205010B5002B928A;
+			remoteInfo = FromeTownNetworkExtentension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEEBF23D205010B7002B928A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CEEBF239205010B7002B928A /* FromeTownNetworkExtentension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9798EA311F791B2F00106ABF /* Frome Town.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frome Town.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +102,10 @@
 		CEBA3165204D88EF00307059 /* InfoTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoTests.plist; sourceTree = "<group>"; };
 		CEEBF229204E9FB5002B928A /* Frome Town.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Frome Town.entitlements"; sourceTree = "<group>"; };
 		CEEBF22A204E9FEB002B928A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CEEBF231205010B5002B928A /* FromeTownNetworkExtentension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FromeTownNetworkExtentension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEBF233205010B7002B928A /* AppProxyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProxyProvider.swift; sourceTree = "<group>"; };
+		CEEBF235205010B7002B928A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEBF236205010B7002B928A /* FromeTownNetworkExtentension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FromeTownNetworkExtentension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +124,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CE3A15B9204D9BE500E5CF05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEBF22E205010B5002B928A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,6 +162,7 @@
 				9798EA331F791B2F00106ABF /* Frome Town */,
 				CEBA3154204D88E700307059 /* Frome TownUITests */,
 				CEBA3162204D88EF00307059 /* Frome TownTests */,
+				CEEBF232205010B7002B928A /* FromeTownNetworkExtentension */,
 				9798EA321F791B2F00106ABF /* Products */,
 				974936861F7A88140031E6FF /* Frameworks */,
 				972CBA101F84DCD6008586DD /* Recovered References */,
@@ -140,6 +175,7 @@
 				9798EA311F791B2F00106ABF /* Frome Town.app */,
 				CE3A15AE204D9BDD00E5CF05 /* Frome TownUITests.xctest */,
 				CE3A15BC204D9BE500E5CF05 /* Frome TownTests.xctest */,
+				CEEBF231205010B5002B928A /* FromeTownNetworkExtentension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,6 +227,16 @@
 			path = "../Frome TownTests";
 			sourceTree = "<group>";
 		};
+		CEEBF232205010B7002B928A /* FromeTownNetworkExtentension */ = {
+			isa = PBXGroup;
+			children = (
+				CEEBF233205010B7002B928A /* AppProxyProvider.swift */,
+				CEEBF235205010B7002B928A /* Info.plist */,
+				CEEBF236205010B7002B928A /* FromeTownNetworkExtentension.entitlements */,
+			);
+			path = FromeTownNetworkExtentension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -201,10 +247,12 @@
 				9798EA2D1F791B2F00106ABF /* Sources */,
 				9798EA2E1F791B2F00106ABF /* Frameworks */,
 				9798EA2F1F791B2F00106ABF /* Resources */,
+				CEEBF23D205010B7002B928A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CEEBF238205010B7002B928A /* PBXTargetDependency */,
 			);
 			name = "Frome Town";
 			productName = "Frome Town";
@@ -246,6 +294,23 @@
 			productName = "Frome TownTests";
 			productReference = CE3A15BC204D9BE500E5CF05 /* Frome TownTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEEBF230205010B5002B928A /* FromeTownNetworkExtentension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEBF23A205010B7002B928A /* Build configuration list for PBXNativeTarget "FromeTownNetworkExtentension" */;
+			buildPhases = (
+				CEEBF22D205010B5002B928A /* Sources */,
+				CEEBF22E205010B5002B928A /* Frameworks */,
+				CEEBF22F205010B5002B928A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FromeTownNetworkExtentension;
+			productName = FromeTownNetworkExtentension;
+			productReference = CEEBF231205010B5002B928A /* FromeTownNetworkExtentension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -292,6 +357,10 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 9798EA301F791B2F00106ABF;
 					};
+					CEEBF230205010B5002B928A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 9798EA2C1F791B2F00106ABF /* Build configuration list for PBXProject "Frome TownFCActualApp" */;
@@ -310,6 +379,7 @@
 				9798EA301F791B2F00106ABF /* Frome Town */,
 				CE3A15AD204D9BDD00E5CF05 /* Frome TownUITests */,
 				CE3A15BB204D9BE500E5CF05 /* Frome TownTests */,
+				CEEBF230205010B5002B928A /* FromeTownNetworkExtentension */,
 			);
 		};
 /* End PBXProject section */
@@ -339,6 +409,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3A15C7204D9BF600E5CF05 /* Frome TownTests.xctest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEBF22F205010B5002B928A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +460,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEEBF22D205010B5002B928A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEBF234205010B7002B928A /* AppProxyProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -395,6 +480,11 @@
 			isa = PBXTargetDependency;
 			target = 9798EA301F791B2F00106ABF /* Frome Town */;
 			targetProxy = CE3A15C1204D9BE600E5CF05 /* PBXContainerItemProxy */;
+		};
+		CEEBF238205010B7002B928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEEBF230205010B5002B928A /* FromeTownNetworkExtentension */;
+			targetProxy = CEEBF237205010B7002B928A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -520,6 +610,7 @@
 		9798EA511F791B2F00106ABF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Frome Town.entitlements";
@@ -542,6 +633,7 @@
 		9798EA521F791B2F00106ABF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Frome Town.entitlements";
@@ -627,6 +719,45 @@
 			};
 			name = Release;
 		};
+		CEEBF23B205010B7002B928A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FromeTownNetworkExtentension/FromeTownNetworkExtentension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = FromeTownNetworkExtentension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FromeTownFC.FromeTown.FromeTownNetworkExtentension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CEEBF23C205010B7002B928A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FromeTownNetworkExtentension/FromeTownNetworkExtentension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHU39HZYKT;
+				INFOPLIST_FILE = FromeTownNetworkExtentension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FromeTownFC.FromeTown.FromeTownNetworkExtentension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -662,6 +793,15 @@
 			buildConfigurations = (
 				CE3A15C4204D9BE600E5CF05 /* Debug */,
 				CE3A15C5204D9BE600E5CF05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEBF23A205010B7002B928A /* Build configuration list for PBXNativeTarget "FromeTownNetworkExtentension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEBF23B205010B7002B928A /* Debug */,
+				CEEBF23C205010B7002B928A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
