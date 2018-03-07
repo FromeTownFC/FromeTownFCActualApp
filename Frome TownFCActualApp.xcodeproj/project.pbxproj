@@ -26,10 +26,10 @@
 		CEB83517204D7598000C83C1 /* TwitterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83515204D7598000C83C1 /* TwitterPageController.swift */; };
 		CEB83518204D7598000C83C1 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83516204D7598000C83C1 /* ThirdController.swift */; };
 		CEBA3172204D8C1700307059 /* InfoMain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9798EA421F791B2F00106ABF /* InfoMain.plist */; };
+		CEE0BC8220501B1D00DA1A2D /* Frome TownTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CEEBF25120501691002B928A /* Frome TownTests.xctest */; };
+		CEE0BC8320501B2100DA1A2D /* Frome TownUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CEEBF2432050167F002B928A /* Frome TownUITests.xctest */; };
 		CEEBF2462050167F002B928A /* Frome_TownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBF2452050167F002B928A /* Frome_TownUITests.swift */; };
 		CEEBF25420501692002B928A /* Frome_TownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBF25320501692002B928A /* Frome_TownTests.swift */; };
-		CEEBF25B20501709002B928A /* Frome TownUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CEEBF2432050167F002B928A /* Frome TownUITests.xctest */; };
-		CEEBF25C2050170B002B928A /* Frome TownTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CEEBF25120501691002B928A /* Frome TownTests.xctest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -342,7 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEBF25B20501709002B928A /* Frome TownUITests.xctest in Resources */,
+				CEE0BC8320501B2100DA1A2D /* Frome TownUITests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +350,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEBF25C2050170B002B928A /* Frome TownTests.xctest in Resources */,
+				CEE0BC8220501B1D00DA1A2D /* Frome TownTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
