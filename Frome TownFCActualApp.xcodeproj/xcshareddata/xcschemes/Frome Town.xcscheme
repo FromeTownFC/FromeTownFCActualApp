@@ -29,6 +29,26 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CEEBF2422050167F002B928A"
+               BuildableName = "Frome TownUITests.xctest"
+               BlueprintName = "Frome TownUITests"
+               ReferencedContainer = "container:Frome TownFCActualApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CEEBF25020501691002B928A"
+               BuildableName = "Frome TownTests.xctest"
+               BlueprintName = "Frome TownTests"
+               ReferencedContainer = "container:Frome TownFCActualApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
