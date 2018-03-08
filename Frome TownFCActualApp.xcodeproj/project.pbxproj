@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE0439F720516692000E23F3 /* FacebookPage1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0439F620516692000E23F3 /* FacebookPage1Controller.swift */; };
+		CE0439F920516FB5000E23F3 /* HistoryPage1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0439F820516FB5000E23F3 /* HistoryPage1Controller.swift */; };
 		CE3A15CC204D9DC800E5CF05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3A15CA204D9DC700E5CF05 /* Main.storyboard */; };
 		CE3A15D5204DC26B00E5CF05 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A15D4204DC26A00E5CF05 /* RoundButton.swift */; };
 		CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB834EC204D7369000C83C1 /* IMAGES.xcassets */; };
@@ -18,7 +19,6 @@
 		CEB83500204D756A000C83C1 /* FromeTownLadiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834FC204D756A000C83C1 /* FromeTownLadiesViewController.swift */; };
 		CEB83501204D756A000C83C1 /* FromeTownRobinsTwitterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834FD204D756A000C83C1 /* FromeTownRobinsTwitterController.swift */; };
 		CEB83502204D756A000C83C1 /* FromeTownRobinsFacebookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834FE204D756A000C83C1 /* FromeTownRobinsFacebookController.swift */; };
-		CEB83504204D757E000C83C1 /* HistoryPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83503204D757E000C83C1 /* HistoryPageController.swift */; };
 		CEB8350C204D7589000C83C1 /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83505204D7588000C83C1 /* RoundCorners.swift */; };
 		CEB83510204D7589000C83C1 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83509204D7588000C83C1 /* ReportsViewController.swift */; };
 		CEB83511204D7589000C83C1 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8350A204D7589000C83C1 /* PlayerViewController.swift */; };
@@ -67,6 +67,7 @@
 		9798EA421F791B2F00106ABF /* InfoMain.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoMain.plist; path = "../Frome-Town/Frome Town/InfoMain.plist"; sourceTree = "<group>"; };
 		97E6EDB91F8FA89E0030A055 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CE0439F620516692000E23F3 /* FacebookPage1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookPage1Controller.swift; sourceTree = "<group>"; };
+		CE0439F820516FB5000E23F3 /* HistoryPage1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPage1Controller.swift; sourceTree = "<group>"; };
 		CE3A15CB204D9DC700E5CF05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../New Group/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		CE3A15D4204DC26A00E5CF05 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = ../RoundButton.swift; sourceTree = "<group>"; };
 		CEB834EC204D7369000C83C1 /* IMAGES.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = IMAGES.xcassets; path = ../IMAGES.xcassets; sourceTree = SOURCE_ROOT; };
@@ -77,7 +78,6 @@
 		CEB834FC204D756A000C83C1 /* FromeTownLadiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromeTownLadiesViewController.swift; path = ../FromeTownLadiesViewController.swift; sourceTree = "<group>"; };
 		CEB834FD204D756A000C83C1 /* FromeTownRobinsTwitterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromeTownRobinsTwitterController.swift; path = ../FromeTownRobinsTwitterController.swift; sourceTree = "<group>"; };
 		CEB834FE204D756A000C83C1 /* FromeTownRobinsFacebookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromeTownRobinsFacebookController.swift; path = ../FromeTownRobinsFacebookController.swift; sourceTree = "<group>"; };
-		CEB83503204D757E000C83C1 /* HistoryPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryPageController.swift; path = ../HistoryPageController.swift; sourceTree = "<group>"; };
 		CEB83505204D7588000C83C1 /* RoundCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundCorners.swift; path = ../RoundCorners.swift; sourceTree = "<group>"; };
 		CEB83509204D7588000C83C1 /* ReportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportsViewController.swift; path = ../ReportsViewController.swift; sourceTree = "<group>"; };
 		CEB8350A204D7589000C83C1 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerViewController.swift; path = ../PlayerViewController.swift; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 				CE3A15CA204D9DC700E5CF05 /* Main.storyboard */,
 				9798EA421F791B2F00106ABF /* InfoMain.plist */,
 				CEB834EC204D7369000C83C1 /* IMAGES.xcassets */,
-				CEB83503204D757E000C83C1 /* HistoryPageController.swift */,
+				CE0439F820516FB5000E23F3 /* HistoryPage1Controller.swift */,
 				CEB8350A204D7589000C83C1 /* PlayerViewController.swift */,
 				CE3A15D4204DC26A00E5CF05 /* RoundButton.swift */,
 				CEB8350B204D7589000C83C1 /* RadioViewController.swift */,
@@ -362,7 +362,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */,
-				CEB83504204D757E000C83C1 /* HistoryPageController.swift in Sources */,
 				CEB83510204D7589000C83C1 /* ReportsViewController.swift in Sources */,
 				CE0439F720516692000E23F3 /* FacebookPage1Controller.swift in Sources */,
 				CEB834F2204D7552000C83C1 /* AppDelegate.swift in Sources */,
@@ -372,6 +371,7 @@
 				CEB83518204D7598000C83C1 /* ThirdController.swift in Sources */,
 				CEB83500204D756A000C83C1 /* FromeTownLadiesViewController.swift in Sources */,
 				CEB83501204D756A000C83C1 /* FromeTownRobinsTwitterController.swift in Sources */,
+				CE0439F920516FB5000E23F3 /* HistoryPage1Controller.swift in Sources */,
 				CEB8350C204D7589000C83C1 /* RoundCorners.swift in Sources */,
 				CE3A15D5204DC26B00E5CF05 /* RoundButton.swift in Sources */,
 				CEB83502204D756A000C83C1 /* FromeTownRobinsFacebookController.swift in Sources */,
