@@ -11,6 +11,7 @@
 		CE0439F920516FB5000E23F3 /* HistoryPage1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0439F820516FB5000E23F3 /* HistoryPage1Controller.swift */; };
 		CE180CE220517ED900DAB33F /* Reports1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE180CE120517ED900DAB33F /* Reports1ViewController.swift */; };
 		CE180CE62051867D00DAB33F /* Player1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE180CE52051867D00DAB33F /* Player1ViewController.swift */; };
+		CE180CE8205187A400DAB33F /* Radio1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE180CE7205187A400DAB33F /* Radio1ViewController.swift */; };
 		CE3A15CC204D9DC800E5CF05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3A15CA204D9DC700E5CF05 /* Main.storyboard */; };
 		CE3A15D5204DC26B00E5CF05 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A15D4204DC26A00E5CF05 /* RoundButton.swift */; };
 		CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB834EC204D7369000C83C1 /* IMAGES.xcassets */; };
@@ -22,7 +23,6 @@
 		CEB83501204D756A000C83C1 /* FromeTownRobinsTwitterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834FD204D756A000C83C1 /* FromeTownRobinsTwitterController.swift */; };
 		CEB83502204D756A000C83C1 /* FromeTownRobinsFacebookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834FE204D756A000C83C1 /* FromeTownRobinsFacebookController.swift */; };
 		CEB8350C204D7589000C83C1 /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83505204D7588000C83C1 /* RoundCorners.swift */; };
-		CEB83512204D7589000C83C1 /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8350B204D7589000C83C1 /* RadioViewController.swift */; };
 		CEB83517204D7598000C83C1 /* TwitterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83515204D7598000C83C1 /* TwitterPageController.swift */; };
 		CEB83518204D7598000C83C1 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB83516204D7598000C83C1 /* ThirdController.swift */; };
 		CEBA3172204D8C1700307059 /* InfoMain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9798EA421F791B2F00106ABF /* InfoMain.plist */; };
@@ -70,6 +70,7 @@
 		CE0439F820516FB5000E23F3 /* HistoryPage1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPage1Controller.swift; sourceTree = "<group>"; };
 		CE180CE120517ED900DAB33F /* Reports1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reports1ViewController.swift; sourceTree = "<group>"; };
 		CE180CE52051867D00DAB33F /* Player1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player1ViewController.swift; sourceTree = "<group>"; };
+		CE180CE7205187A400DAB33F /* Radio1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio1ViewController.swift; sourceTree = "<group>"; };
 		CE3A15CB204D9DC700E5CF05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../New Group/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		CE3A15D4204DC26A00E5CF05 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = ../RoundButton.swift; sourceTree = "<group>"; };
 		CEB834EC204D7369000C83C1 /* IMAGES.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = IMAGES.xcassets; path = ../IMAGES.xcassets; sourceTree = SOURCE_ROOT; };
@@ -81,7 +82,6 @@
 		CEB834FD204D756A000C83C1 /* FromeTownRobinsTwitterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromeTownRobinsTwitterController.swift; path = ../FromeTownRobinsTwitterController.swift; sourceTree = "<group>"; };
 		CEB834FE204D756A000C83C1 /* FromeTownRobinsFacebookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromeTownRobinsFacebookController.swift; path = ../FromeTownRobinsFacebookController.swift; sourceTree = "<group>"; };
 		CEB83505204D7588000C83C1 /* RoundCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundCorners.swift; path = ../RoundCorners.swift; sourceTree = "<group>"; };
-		CEB8350B204D7589000C83C1 /* RadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RadioViewController.swift; path = ../RadioViewController.swift; sourceTree = "<group>"; };
 		CEB83515204D7598000C83C1 /* TwitterPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterPageController.swift; path = ../TwitterPageController.swift; sourceTree = "<group>"; };
 		CEB83516204D7598000C83C1 /* ThirdController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdController.swift; path = ../ThirdController.swift; sourceTree = "<group>"; };
 		CEEBF229204E9FB5002B928A /* Frome Town.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Frome Town.entitlements"; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 				CE0439F820516FB5000E23F3 /* HistoryPage1Controller.swift */,
 				CE180CE52051867D00DAB33F /* Player1ViewController.swift */,
 				CE3A15D4204DC26A00E5CF05 /* RoundButton.swift */,
-				CEB8350B204D7589000C83C1 /* RadioViewController.swift */,
+				CE180CE7205187A400DAB33F /* Radio1ViewController.swift */,
 				CE180CE120517ED900DAB33F /* Reports1ViewController.swift */,
 				CEB83505204D7588000C83C1 /* RoundCorners.swift */,
 				CEB83516204D7598000C83C1 /* ThirdController.swift */,
@@ -365,7 +365,7 @@
 				CE0439F720516692000E23F3 /* FacebookPage1Controller.swift in Sources */,
 				CEB834F2204D7552000C83C1 /* AppDelegate.swift in Sources */,
 				CE180CE62051867D00DAB33F /* Player1ViewController.swift in Sources */,
-				CEB83512204D7589000C83C1 /* RadioViewController.swift in Sources */,
+				CE180CE8205187A400DAB33F /* Radio1ViewController.swift in Sources */,
 				CE180CE220517ED900DAB33F /* Reports1ViewController.swift in Sources */,
 				CEB83517204D7598000C83C1 /* TwitterPageController.swift in Sources */,
 				CEB83518204D7598000C83C1 /* ThirdController.swift in Sources */,
