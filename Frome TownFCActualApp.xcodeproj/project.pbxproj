@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0439F720516692000E23F3 /* FacebookPage1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0439F620516692000E23F3 /* FacebookPage1Controller.swift */; };
 		CE3A15CC204D9DC800E5CF05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3A15CA204D9DC700E5CF05 /* Main.storyboard */; };
 		CE3A15D5204DC26B00E5CF05 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A15D4204DC26A00E5CF05 /* RoundButton.swift */; };
 		CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB834EC204D7369000C83C1 /* IMAGES.xcassets */; };
 		CEB834F2204D7552000C83C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F1204D7552000C83C1 /* AppDelegate.swift */; };
 		CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F4204D7560000C83C1 /* FirstViewController.swift */; };
-		CEB834F9204D7560000C83C1 /* FacebookPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F5204D7560000C83C1 /* FacebookPageController.swift */; };
 		CEB834FA204D7560000C83C1 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F6204D7560000C83C1 /* FourthViewController.swift */; };
 		CEB834FF204D756A000C83C1 /* Frome Town Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB834FB204D756A000C83C1 /* Frome Town Launch Screen.storyboard */; };
 		CEB83500204D756A000C83C1 /* FromeTownLadiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834FC204D756A000C83C1 /* FromeTownLadiesViewController.swift */; };
@@ -66,12 +66,12 @@
 		9798EA311F791B2F00106ABF /* Frome Town.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frome Town.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9798EA421F791B2F00106ABF /* InfoMain.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoMain.plist; path = "../Frome-Town/Frome Town/InfoMain.plist"; sourceTree = "<group>"; };
 		97E6EDB91F8FA89E0030A055 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE0439F620516692000E23F3 /* FacebookPage1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookPage1Controller.swift; sourceTree = "<group>"; };
 		CE3A15CB204D9DC700E5CF05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../New Group/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		CE3A15D4204DC26A00E5CF05 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = ../RoundButton.swift; sourceTree = "<group>"; };
 		CEB834EC204D7369000C83C1 /* IMAGES.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = IMAGES.xcassets; path = ../IMAGES.xcassets; sourceTree = SOURCE_ROOT; };
 		CEB834F1204D7552000C83C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		CEB834F4204D7560000C83C1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = /Users/user/Documents/FromeTownActualApp/../FirstViewController.swift; sourceTree = "<absolute>"; };
-		CEB834F5204D7560000C83C1 /* FacebookPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookPageController.swift; path = ../FacebookPageController.swift; sourceTree = "<group>"; };
 		CEB834F6204D7560000C83C1 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FourthViewController.swift; path = ../FourthViewController.swift; sourceTree = "<group>"; };
 		CEB834FB204D756A000C83C1 /* Frome Town Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Frome Town Launch Screen.storyboard"; path = "../Frome Town Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CEB834FC204D756A000C83C1 /* FromeTownLadiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromeTownLadiesViewController.swift; path = ../FromeTownLadiesViewController.swift; sourceTree = "<group>"; };
@@ -162,7 +162,7 @@
 			children = (
 				CEEBF229204E9FB5002B928A /* Frome Town.entitlements */,
 				CEB834F1204D7552000C83C1 /* AppDelegate.swift */,
-				CEB834F5204D7560000C83C1 /* FacebookPageController.swift */,
+				CE0439F620516692000E23F3 /* FacebookPage1Controller.swift */,
 				CEB834F4204D7560000C83C1 /* FirstViewController.swift */,
 				CEB834F6204D7560000C83C1 /* FourthViewController.swift */,
 				CEB834FB204D756A000C83C1 /* Frome Town Launch Screen.storyboard */,
@@ -362,9 +362,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */,
-				CEB834F9204D7560000C83C1 /* FacebookPageController.swift in Sources */,
 				CEB83504204D757E000C83C1 /* HistoryPageController.swift in Sources */,
 				CEB83510204D7589000C83C1 /* ReportsViewController.swift in Sources */,
+				CE0439F720516692000E23F3 /* FacebookPage1Controller.swift in Sources */,
 				CEB834F2204D7552000C83C1 /* AppDelegate.swift in Sources */,
 				CEB83511204D7589000C83C1 /* PlayerViewController.swift in Sources */,
 				CEB83512204D7589000C83C1 /* RadioViewController.swift in Sources */,
