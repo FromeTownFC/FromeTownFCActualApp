@@ -18,6 +18,8 @@
 		CE517DF820568CB100076DF5 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE517DF720568CAF00076DF5 /* VideosViewController.swift */; };
 		CE517DFE2056C82500076DF5 /* Radio1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE517DFD2056C82400076DF5 /* Radio1ViewController.swift */; };
 		CE517DFF2056CC8400076DF5 /* LeagueTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE517DFB2056B82D00076DF5 /* LeagueTableController.swift */; };
+		CE76952F2057E095009E8B79 /* Frome TownUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CEEBF2432050167F002B928A /* Frome TownUITests.xctest */; };
+		CE7695302057E095009E8B79 /* Frome TownTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CEEBF25120501691002B928A /* Frome TownTests.xctest */; };
 		CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB834EC204D7369000C83C1 /* IMAGES.xcassets */; };
 		CEB834F2204D7552000C83C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F1204D7552000C83C1 /* AppDelegate.swift */; };
 		CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F4204D7560000C83C1 /* FirstViewController.swift */; };
@@ -337,6 +339,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE76952F2057E095009E8B79 /* Frome TownUITests.xctest in Resources */,
+				CE7695302057E095009E8B79 /* Frome TownTests.xctest in Resources */,
 				CEBA3172204D8C1700307059 /* InfoMain.plist in Resources */,
 				CE3A15CC204D9DC800E5CF05 /* Main.storyboard in Resources */,
 				CEB834FF204D756A000C83C1 /* Frome Town Launch Screen.storyboard in Resources */,
