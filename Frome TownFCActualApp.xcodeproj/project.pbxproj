@@ -12,7 +12,6 @@
 		CE180CE220517ED900DAB33F /* Reports1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE180CE120517ED900DAB33F /* Reports1ViewController.swift */; };
 		CE180CE62051867D00DAB33F /* Player1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE180CE52051867D00DAB33F /* Player1ViewController.swift */; };
 		CE180CEA205188A900DAB33F /* TwitterPage1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE180CE9205188A900DAB33F /* TwitterPage1Controller.swift */; };
-		CE3A15CC204D9DC800E5CF05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3A15CA204D9DC700E5CF05 /* Main.storyboard */; };
 		CE517DFE2056C82500076DF5 /* Radio1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE517DFD2056C82400076DF5 /* Radio1ViewController.swift */; };
 		CE517DFF2056CC8400076DF5 /* LeagueTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE517DFB2056B82D00076DF5 /* LeagueTableController.swift */; };
 		CE76953A2057EA8B009E8B79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBF22A204E9FEB002B928A /* XCTest.framework */; };
@@ -26,6 +25,7 @@
 		CE76954F205800B3009E8B79 /* RoundButton1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76954E205800B3009E8B79 /* RoundButton1.swift */; };
 		CE769551205800EA009E8B79 /* RoundCorners1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE769550205800EA009E8B79 /* RoundCorners1.swift */; };
 		CE769553205809A0009E8B79 /* FromeTown1LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE769552205809A0009E8B79 /* FromeTown1LaunchScreen.storyboard */; };
+		CE76955520580C5B009E8B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE76955420580C4A009E8B79 /* Main.storyboard */; };
 		CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB834EC204D7369000C83C1 /* IMAGES.xcassets */; };
 		CEB834F2204D7552000C83C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F1204D7552000C83C1 /* AppDelegate.swift */; };
 		CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F4204D7560000C83C1 /* FirstViewController.swift */; };
@@ -89,7 +89,6 @@
 		CE180CE120517ED900DAB33F /* Reports1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Reports1ViewController.swift; path = /Users/user/Documents/FromeTownActualApp/../Reports1ViewController.swift; sourceTree = "<absolute>"; };
 		CE180CE52051867D00DAB33F /* Player1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player1ViewController.swift; sourceTree = "<group>"; };
 		CE180CE9205188A900DAB33F /* TwitterPage1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterPage1Controller.swift; sourceTree = "<group>"; };
-		CE3A15CB204D9DC700E5CF05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../New Group/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		CE517DFB2056B82D00076DF5 /* LeagueTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTableController.swift; sourceTree = "<group>"; };
 		CE517DFD2056C82400076DF5 /* Radio1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Radio1ViewController.swift; sourceTree = "<group>"; };
 		CE7695402057EEB9009E8B79 /* FromeTownLadies1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromeTownLadies1ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +100,7 @@
 		CE76954E205800B3009E8B79 /* RoundButton1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton1.swift; sourceTree = "<group>"; };
 		CE769550205800EA009E8B79 /* RoundCorners1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCorners1.swift; sourceTree = "<group>"; };
 		CE769552205809A0009E8B79 /* FromeTown1LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FromeTown1LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE76955420580C4A009E8B79 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CEB834EC204D7369000C83C1 /* IMAGES.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = IMAGES.xcassets; path = ../IMAGES.xcassets; sourceTree = SOURCE_ROOT; };
 		CEB834F1204D7552000C83C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = /Users/user/Documents/FromeTownActualApp/../AppDelegate.swift; sourceTree = "<absolute>"; };
 		CEB834F4204D7560000C83C1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = /Users/user/Documents/FromeTownActualApp/../FirstViewController.swift; sourceTree = "<absolute>"; };
@@ -192,8 +192,8 @@
 				CE769552205809A0009E8B79 /* FromeTown1LaunchScreen.storyboard */,
 				CE7695402057EEB9009E8B79 /* FromeTownLadies1ViewController.swift */,
 				CE7695462057FC19009E8B79 /* FromeTownRobinsFacebook1Controller.swift */,
+				CE76955420580C4A009E8B79 /* Main.storyboard */,
 				CE7695422057F9AE009E8B79 /* FromeTownRobinsTwitter1Controller.swift */,
-				CE3A15CA204D9DC700E5CF05 /* Main.storyboard */,
 				CE7695442057FB15009E8B79 /* Instagram1ViewController.swift */,
 				9798EA421F791B2F00106ABF /* InfoMain.plist */,
 				CEB834EC204D7369000C83C1 /* IMAGES.xcassets */,
@@ -358,7 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEBA3172204D8C1700307059 /* InfoMain.plist in Resources */,
-				CE3A15CC204D9DC800E5CF05 /* Main.storyboard in Resources */,
+				CE76955520580C5B009E8B79 /* Main.storyboard in Resources */,
 				CE769553205809A0009E8B79 /* FromeTown1LaunchScreen.storyboard in Resources */,
 				CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */,
 			);
@@ -447,17 +447,6 @@
 			targetProxy = CEEBF25620501692002B928A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CE3A15CA204D9DC700E5CF05 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE3A15CB204D9DC700E5CF05 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9798EA4E1F791B2F00106ABF /* Debug */ = {
