@@ -37,6 +37,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CE76953C2057EBE7009E8B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9798EA291F791B2F00106ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEEBF25020501691002B928A;
+			remoteInfo = "Frome TownTests";
+		};
+		CE76953E2057EBEE009E8B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9798EA291F791B2F00106ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEEBF2422050167F002B928A;
+			remoteInfo = "Frome TownUITests";
+		};
 		CEEBF24820501680002B928A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9798EA291F791B2F00106ABF /* Project object */;
@@ -244,6 +258,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				CE76953D2057EBE7009E8B79 /* PBXTargetDependency */,
 				CEEBF24920501680002B928A /* PBXTargetDependency */,
 			);
 			name = "Frome TownUITests";
@@ -262,6 +277,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				CE76953F2057EBEE009E8B79 /* PBXTargetDependency */,
 				CEEBF25720501692002B928A /* PBXTargetDependency */,
 			);
 			name = "Frome TownTests";
@@ -410,6 +426,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CE76953D2057EBE7009E8B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEEBF25020501691002B928A /* Frome TownTests */;
+			targetProxy = CE76953C2057EBE7009E8B79 /* PBXContainerItemProxy */;
+		};
+		CE76953F2057EBEE009E8B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEEBF2422050167F002B928A /* Frome TownUITests */;
+			targetProxy = CE76953E2057EBEE009E8B79 /* PBXContainerItemProxy */;
+		};
 		CEEBF24920501680002B928A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9798EA301F791B2F00106ABF /* Frome Town */;
