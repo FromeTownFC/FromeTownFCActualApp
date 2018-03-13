@@ -14,8 +14,6 @@
 		CE180CEA205188A900DAB33F /* TwitterPage1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE180CE9205188A900DAB33F /* TwitterPage1Controller.swift */; };
 		CE517DFE2056C82500076DF5 /* Radio1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE517DFD2056C82400076DF5 /* Radio1ViewController.swift */; };
 		CE517DFF2056CC8400076DF5 /* LeagueTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE517DFB2056B82D00076DF5 /* LeagueTableController.swift */; };
-		CE76953A2057EA8B009E8B79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBF22A204E9FEB002B928A /* XCTest.framework */; };
-		CE76953B2057EAAD009E8B79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBF22A204E9FEB002B928A /* XCTest.framework */; };
 		CE7695412057EEB9009E8B79 /* FromeTownLadies1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7695402057EEB9009E8B79 /* FromeTownLadies1ViewController.swift */; };
 		CE7695432057F9AE009E8B79 /* FromeTownRobinsTwitter1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7695422057F9AE009E8B79 /* FromeTownRobinsTwitter1Controller.swift */; };
 		CE7695452057FB15009E8B79 /* Instagram1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7695442057FB15009E8B79 /* Instagram1ViewController.swift */; };
@@ -30,42 +28,7 @@
 		CEB834F2204D7552000C83C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F1204D7552000C83C1 /* AppDelegate.swift */; };
 		CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F4204D7560000C83C1 /* FirstViewController.swift */; };
 		CEBA3172204D8C1700307059 /* InfoMain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9798EA421F791B2F00106ABF /* InfoMain.plist */; };
-		CEE0BC8220501B1D00DA1A2D /* Frome TownTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CEEBF25120501691002B928A /* Frome TownTests.xctest */; };
-		CEE0BC8320501B2100DA1A2D /* Frome TownUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CEEBF2432050167F002B928A /* Frome TownUITests.xctest */; };
-		CEEBF2462050167F002B928A /* Frome_TownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBF2452050167F002B928A /* Frome_TownUITests.swift */; };
-		CEEBF25420501692002B928A /* Frome_TownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBF25320501692002B928A /* Frome_TownTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CE76953C2057EBE7009E8B79 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9798EA291F791B2F00106ABF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEEBF25020501691002B928A;
-			remoteInfo = "Frome TownTests";
-		};
-		CE76953E2057EBEE009E8B79 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9798EA291F791B2F00106ABF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEEBF2422050167F002B928A;
-			remoteInfo = "Frome TownUITests";
-		};
-		CEEBF24820501680002B928A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9798EA291F791B2F00106ABF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9798EA301F791B2F00106ABF;
-			remoteInfo = "Frome Town";
-		};
-		CEEBF25620501692002B928A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9798EA291F791B2F00106ABF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9798EA301F791B2F00106ABF;
-			remoteInfo = "Frome Town";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CEEBF23D205010B7002B928A /* Embed App Extensions */ = {
@@ -106,10 +69,8 @@
 		CEB834F4204D7560000C83C1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = /Users/user/Documents/FromeTownActualApp/../FirstViewController.swift; sourceTree = "<absolute>"; };
 		CEEBF229204E9FB5002B928A /* Frome Town.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Frome Town.entitlements"; sourceTree = "<group>"; };
 		CEEBF22A204E9FEB002B928A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CEEBF2432050167F002B928A /* Frome TownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frome TownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEBF2452050167F002B928A /* Frome_TownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frome_TownUITests.swift; sourceTree = "<group>"; };
 		CEEBF24720501680002B928A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEEBF25120501691002B928A /* Frome TownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frome TownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEBF25320501692002B928A /* Frome_TownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frome_TownTests.swift; sourceTree = "<group>"; };
 		CEEBF25520501692002B928A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,22 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEBF2402050167F002B928A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE76953A2057EA8B009E8B79 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEBF24E20501691002B928A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE76953B2057EAAD009E8B79 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				9798EA311F791B2F00106ABF /* Frome Town.app */,
-				CEEBF2432050167F002B928A /* Frome TownUITests.xctest */,
-				CEEBF25120501691002B928A /* Frome TownTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,44 +190,6 @@
 			productReference = 9798EA311F791B2F00106ABF /* Frome Town.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEEBF2422050167F002B928A /* Frome TownUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEEBF24A20501680002B928A /* Build configuration list for PBXNativeTarget "Frome TownUITests" */;
-			buildPhases = (
-				CEEBF23F2050167F002B928A /* Sources */,
-				CEEBF2402050167F002B928A /* Frameworks */,
-				CEEBF2412050167F002B928A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE76953D2057EBE7009E8B79 /* PBXTargetDependency */,
-				CEEBF24920501680002B928A /* PBXTargetDependency */,
-			);
-			name = "Frome TownUITests";
-			productName = "Frome TownUITests";
-			productReference = CEEBF2432050167F002B928A /* Frome TownUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		CEEBF25020501691002B928A /* Frome TownTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEEBF25820501692002B928A /* Build configuration list for PBXNativeTarget "Frome TownTests" */;
-			buildPhases = (
-				CEEBF24D20501691002B928A /* Sources */,
-				CEEBF24E20501691002B928A /* Frameworks */,
-				CEEBF24F20501691002B928A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE76953F2057EBEE009E8B79 /* PBXTargetDependency */,
-				CEEBF25720501692002B928A /* PBXTargetDependency */,
-			);
-			name = "Frome TownTests";
-			productName = "Frome TownTests";
-			productReference = CEEBF25120501691002B928A /* Frome TownTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -320,16 +225,6 @@
 							};
 						};
 					};
-					CEEBF2422050167F002B928A = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 9798EA301F791B2F00106ABF;
-					};
-					CEEBF25020501691002B928A = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 9798EA301F791B2F00106ABF;
-					};
 				};
 			};
 			buildConfigurationList = 9798EA2C1F791B2F00106ABF /* Build configuration list for PBXProject "Frome TownFCActualApp" */;
@@ -346,8 +241,6 @@
 			projectRoot = "";
 			targets = (
 				9798EA301F791B2F00106ABF /* Frome Town */,
-				CEEBF2422050167F002B928A /* Frome TownUITests */,
-				CEEBF25020501691002B928A /* Frome TownTests */,
 			);
 		};
 /* End PBXProject section */
@@ -361,22 +254,6 @@
 				CE76955520580C5B009E8B79 /* Main.storyboard in Resources */,
 				CE769553205809A0009E8B79 /* FromeTown1LaunchScreen.storyboard in Resources */,
 				CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEBF2412050167F002B928A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEE0BC8320501B2100DA1A2D /* Frome TownUITests.xctest in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEBF24F20501691002B928A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEE0BC8220501B1D00DA1A2D /* Frome TownTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,46 +284,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEEBF23F2050167F002B928A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEEBF2462050167F002B928A /* Frome_TownUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEBF24D20501691002B928A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEEBF25420501692002B928A /* Frome_TownTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CE76953D2057EBE7009E8B79 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEEBF25020501691002B928A /* Frome TownTests */;
-			targetProxy = CE76953C2057EBE7009E8B79 /* PBXContainerItemProxy */;
-		};
-		CE76953F2057EBEE009E8B79 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEEBF2422050167F002B928A /* Frome TownUITests */;
-			targetProxy = CE76953E2057EBEE009E8B79 /* PBXContainerItemProxy */;
-		};
-		CEEBF24920501680002B928A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9798EA301F791B2F00106ABF /* Frome Town */;
-			targetProxy = CEEBF24820501680002B928A /* PBXContainerItemProxy */;
-		};
-		CEEBF25720501692002B928A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9798EA301F791B2F00106ABF /* Frome Town */;
-			targetProxy = CEEBF25620501692002B928A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9798EA4E1F791B2F00106ABF /* Debug */ = {
@@ -602,74 +440,6 @@
 			};
 			name = Release;
 		};
-		CEEBF24B20501680002B928A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SHU39HZYKT;
-				INFOPLIST_FILE = "Frome TownUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Frome Town";
-			};
-			name = Debug;
-		};
-		CEEBF24C20501680002B928A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SHU39HZYKT;
-				INFOPLIST_FILE = "Frome TownUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Frome Town";
-			};
-			name = Release;
-		};
-		CEEBF25920501692002B928A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SHU39HZYKT;
-				INFOPLIST_FILE = "Frome TownTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frome Town.app/Frome Town";
-			};
-			name = Debug;
-		};
-		CEEBF25A20501692002B928A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SHU39HZYKT;
-				INFOPLIST_FILE = "Frome TownTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FromeTownFC.Frome-TownTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frome Town.app/Frome Town";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -687,24 +457,6 @@
 			buildConfigurations = (
 				9798EA511F791B2F00106ABF /* Debug */,
 				9798EA521F791B2F00106ABF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEEBF24A20501680002B928A /* Build configuration list for PBXNativeTarget "Frome TownUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEEBF24B20501680002B928A /* Debug */,
-				CEEBF24C20501680002B928A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEEBF25820501692002B928A /* Build configuration list for PBXNativeTarget "Frome TownTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEEBF25920501692002B928A /* Debug */,
-				CEEBF25A20501692002B928A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
