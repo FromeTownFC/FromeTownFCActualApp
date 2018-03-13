@@ -101,7 +101,7 @@
 		CE769550205800EA009E8B79 /* RoundCorners1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCorners1.swift; sourceTree = "<group>"; };
 		CE769552205809A0009E8B79 /* FromeTown1LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FromeTown1LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE76955420580C4A009E8B79 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		CEB834EC204D7369000C83C1 /* IMAGES.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = IMAGES.xcassets; path = ../IMAGES.xcassets; sourceTree = SOURCE_ROOT; };
+		CEB834EC204D7369000C83C1 /* IMAGES.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = IMAGES.xcassets; path = /Users/user/Documents/FromeTownActualApp/IMAGES.xcassets; sourceTree = "<absolute>"; };
 		CEB834F1204D7552000C83C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = /Users/user/Documents/FromeTownActualApp/../AppDelegate.swift; sourceTree = "<absolute>"; };
 		CEB834F4204D7560000C83C1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = /Users/user/Documents/FromeTownActualApp/../FirstViewController.swift; sourceTree = "<absolute>"; };
 		CEEBF229204E9FB5002B928A /* Frome Town.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Frome Town.entitlements"; sourceTree = "<group>"; };
