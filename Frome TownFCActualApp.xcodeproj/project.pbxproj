@@ -25,10 +25,10 @@
 		CE76954D2057FEF8009E8B79 /* Fourth1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76954C2057FEF8009E8B79 /* Fourth1ViewController.swift */; };
 		CE76954F205800B3009E8B79 /* RoundButton1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76954E205800B3009E8B79 /* RoundButton1.swift */; };
 		CE769551205800EA009E8B79 /* RoundCorners1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE769550205800EA009E8B79 /* RoundCorners1.swift */; };
+		CE769553205809A0009E8B79 /* FromeTown1LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE769552205809A0009E8B79 /* FromeTown1LaunchScreen.storyboard */; };
 		CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB834EC204D7369000C83C1 /* IMAGES.xcassets */; };
 		CEB834F2204D7552000C83C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F1204D7552000C83C1 /* AppDelegate.swift */; };
 		CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F4204D7560000C83C1 /* FirstViewController.swift */; };
-		CEB834FF204D756A000C83C1 /* Frome Town Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB834FB204D756A000C83C1 /* Frome Town Launch Screen.storyboard */; };
 		CEBA3172204D8C1700307059 /* InfoMain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9798EA421F791B2F00106ABF /* InfoMain.plist */; };
 		CEE0BC8220501B1D00DA1A2D /* Frome TownTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CEEBF25120501691002B928A /* Frome TownTests.xctest */; };
 		CEE0BC8320501B2100DA1A2D /* Frome TownUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CEEBF2432050167F002B928A /* Frome TownUITests.xctest */; };
@@ -100,10 +100,10 @@
 		CE76954C2057FEF8009E8B79 /* Fourth1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fourth1ViewController.swift; sourceTree = "<group>"; };
 		CE76954E205800B3009E8B79 /* RoundButton1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton1.swift; sourceTree = "<group>"; };
 		CE769550205800EA009E8B79 /* RoundCorners1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCorners1.swift; sourceTree = "<group>"; };
+		CE769552205809A0009E8B79 /* FromeTown1LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FromeTown1LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB834EC204D7369000C83C1 /* IMAGES.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = IMAGES.xcassets; path = ../IMAGES.xcassets; sourceTree = SOURCE_ROOT; };
 		CEB834F1204D7552000C83C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = /Users/user/Documents/FromeTownActualApp/../AppDelegate.swift; sourceTree = "<absolute>"; };
 		CEB834F4204D7560000C83C1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = /Users/user/Documents/FromeTownActualApp/../FirstViewController.swift; sourceTree = "<absolute>"; };
-		CEB834FB204D756A000C83C1 /* Frome Town Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Frome Town Launch Screen.storyboard"; path = "../Frome Town Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CEEBF229204E9FB5002B928A /* Frome Town.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Frome Town.entitlements"; sourceTree = "<group>"; };
 		CEEBF22A204E9FEB002B928A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CEEBF2432050167F002B928A /* Frome TownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frome TownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,7 +189,7 @@
 				CE0439F620516692000E23F3 /* FacebookPage1Controller.swift */,
 				CEB834F4204D7560000C83C1 /* FirstViewController.swift */,
 				CE76954C2057FEF8009E8B79 /* Fourth1ViewController.swift */,
-				CEB834FB204D756A000C83C1 /* Frome Town Launch Screen.storyboard */,
+				CE769552205809A0009E8B79 /* FromeTown1LaunchScreen.storyboard */,
 				CE7695402057EEB9009E8B79 /* FromeTownLadies1ViewController.swift */,
 				CE7695462057FC19009E8B79 /* FromeTownRobinsFacebook1Controller.swift */,
 				CE7695422057F9AE009E8B79 /* FromeTownRobinsTwitter1Controller.swift */,
@@ -359,7 +359,7 @@
 			files = (
 				CEBA3172204D8C1700307059 /* InfoMain.plist in Resources */,
 				CE3A15CC204D9DC800E5CF05 /* Main.storyboard in Resources */,
-				CEB834FF204D756A000C83C1 /* Frome Town Launch Screen.storyboard in Resources */,
+				CE769553205809A0009E8B79 /* FromeTown1LaunchScreen.storyboard in Resources */,
 				CEB834ED204D7369000C83C1 /* IMAGES.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
