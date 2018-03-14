@@ -15,7 +15,7 @@ class Radio1ViewController: UIViewController, WKUIDelegate {
     
     override func loadView() {
         
-        let webConfiguration = WKWebViewConfiguration(); webConfiguration
+        let webConfiguration = WKWebViewConfiguration()
         webView = WKWebView(frame: .zero, configuration: webConfiguration)
         webView.uiDelegate = self
         view = webView

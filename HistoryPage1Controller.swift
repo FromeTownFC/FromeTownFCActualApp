@@ -14,7 +14,7 @@ class HistoryPage1Controller: UIViewController, WKUIDelegate {
     var webView: WKWebView!
     
     override func loadView() {
-        let webConfiguration = WKWebViewConfiguration(); webConfiguration
+        let webConfiguration = WKWebViewConfiguration()
         webView = WKWebView(frame: .zero, configuration: webConfiguration)
         webView.uiDelegate = self
         view = webView
