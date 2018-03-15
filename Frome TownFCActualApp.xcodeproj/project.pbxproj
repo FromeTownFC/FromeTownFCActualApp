@@ -28,6 +28,7 @@
 		CEB834F2204D7552000C83C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F1204D7552000C83C1 /* AppDelegate.swift */; };
 		CEB834F8204D7560000C83C1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB834F4204D7560000C83C1 /* FirstViewController.swift */; };
 		CEBA3172204D8C1700307059 /* InfoMain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9798EA421F791B2F00106ABF /* InfoMain.plist */; };
+		CEE85646205962D80048C7A4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE85645205962D80048C7A4 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,7 @@
 		CEB834EC204D7369000C83C1 /* IMAGES.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = IMAGES.xcassets; path = /Users/user/Documents/FromeTownActualApp/IMAGES.xcassets; sourceTree = "<absolute>"; };
 		CEB834F1204D7552000C83C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = /Users/user/Documents/FromeTownActualApp/../AppDelegate.swift; sourceTree = "<absolute>"; };
 		CEB834F4204D7560000C83C1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = /Users/user/Documents/FromeTownActualApp/../FirstViewController.swift; sourceTree = "<absolute>"; };
+		CEE85645205962D80048C7A4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		CEEBF229204E9FB5002B928A /* Frome Town.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Frome Town.entitlements"; sourceTree = "<group>"; };
 		CEEBF22A204E9FEB002B928A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CEEBF2452050167F002B928A /* Frome_TownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frome_TownUITests.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE85646205962D80048C7A4 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +99,7 @@
 		974936861F7A88140031E6FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEE85645205962D80048C7A4 /* CloudKit.framework */,
 				CEEBF22A204E9FEB002B928A /* XCTest.framework */,
 				97E6EDB91F8FA89E0030A055 /* QuartzCore.framework */,
 			);
@@ -218,10 +222,10 @@
 								enabled = 0;
 							};
 							com.apple.Push = {
-								enabled = 0;
+								enabled = 1;
 							};
 							com.apple.iCloud = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
